@@ -1,0 +1,139 @@
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 20px 0px;*/
+    box-sizing: border-box;
+}
+
+.logo{
+
+}
+
+.networks {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.network{
+    font-size: 20px;
+    font-family: "Anonymous Pro", sans-serif;
+    font-weight: 700;
+    color: #121723;
+}
+
+a{
+    text-decoration: none;
+    color: #121723;
+}
+
+.separator{
+    margin: 0px;
+    color: #A1A6B4;
+}
+
+.main{
+    background: #F1F1F1;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 10px 0px;
+}
+
+
+.collection{
+    color: #121723;
+    font-size: 48px;
+    font-family: IBM Plex Mono, serif;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.sneakers{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.sneaker{
+    height: 100%;
+    width: calc(33% - 18px);
+    background: white;
+    border-radius: 12px;
+}
+
+.sneaker_image{
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.sneaker_info{
+    margin: 32px 24px;
+}
+
+.sneaker_text_title{
+    font-size: 26px;
+    font-family: Anonymous Pro, serif;
+    font-weight: 700;
+    color: #121723;
+}
+
+.sneaker_text_info{
+    font-size: 20px;
+    font-family: Anonymous Pro, serif;
+    font-weight: 400;
+    color: #121723;
+}
+
+footer {
+    background: #121723;
+    width: 100%;
+    height: 100%;
+}
+
+.footer_content {
+    margin: 20px 0px 30px 0px;
+    background: #121723;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.networks_footer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.network_footer{
+    font-size: 20px;
+    font-family: "Anonymous Pro", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.separator_footer{
+    margin: 0px;
+    color: #E6E8EC66;
+}
+
+.page_info{
+    color: #A1A6B4;
+    font-size: 16px;
+    font-family: Anonymous Pro, serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px 0px 6px 0px;
+}
