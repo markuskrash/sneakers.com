@@ -21,64 +21,7 @@
     font-style: normal;
 }
 
-/*@font-face {*/
-/*    font-family: "Soyuz Grotesk";*/
-/*    src: url(./fonts/Soyuz\ Grotesk\ Bold.woff) format('woff'),*/
-/*    url(./fonts/Soyuz\ Grotesk\ Bold.otf) format('opentype');*/
-/*    font-weight: 700;*/
-/*    font-style: normal;*/
-/*    display: swap;*/
-/*}*/
-
-
 body {
     margin: 0;
 }
 
-/*.main {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: flex-start;*/
-/*    align-items: center;*/
-/*    width: 100%;*/
-/*    min-height: 100vh;*/
-/*    background: linear-gradient(156deg, #FFED00 0%, #FF3DFE 51.89%, #5253FF 100%);*/
-/*    flex: 1 0 auto;*/
-/*    color: #121723;*/
-/*}*/
-
-/*.content {*/
-/*    margin: 68px 0 26px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    width: 90%;*/
-/*    max-width: 1290px;*/
-/*    flex: 1 0 auto;*/
-/*}*/
-
-
-
-
-
-
-/*@media screen and (max-width: 900px) {*/
-/*    .content {*/
-/*        margin: 32px 0;*/
-/*    }*/
-
-/*    .content__title {*/
-/*        font-size: 24px;*/
-/*    }*/
-
-/*    .card__text_title {*/
-/*        font-size: 20px;*/
-/*    }*/
-
-/*    .card__text_author {*/
-/*        font-size: 16px;*/
-/*    }*/
-
-/*    .footer__text {*/
-/*        font-size: 24px;*/
-/*    }*/
-/*}*/
