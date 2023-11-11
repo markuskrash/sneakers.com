@@ -1,0 +1,31 @@
+.sneaker_big{
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    background: white;
+    border-radius: 50px;
+}
+
+.sneaker_big_image{
+    max-width: 100%;
+    width: 100%;
+}
+
+.sneaker_big_info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.sneaker_big_text_title{
+    font-size: 48px;
+}
+
+.sneaker_big_text_subtitle{
+    font-size: 36px;
+}
+
+p{
+    margin: 0px;
+}
