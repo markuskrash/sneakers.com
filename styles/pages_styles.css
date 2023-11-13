@@ -66,3 +66,36 @@ p{
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 800px) {
+    .sneaker_big{
+        padding: 24px;
+    }
+
+    .sneaker_big_add_info{
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    .sneaker_big_text{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .sneaker_big_parameters{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .sneaker_big_parameters_title{
+        font-size: 24px;
+    }
+
+    .sneaker_big_text_title{
+        font-size: 32px;
+    }
+
+    .sneaker_big_text_subtitle{
+        font-size: 20px;
+    }
+}
