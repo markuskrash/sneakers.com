@@ -27,5 +27,42 @@
 }
 
 p{
+    color: #121723;
     margin: 0px;
+}
+
+.sneaker_big_add_info{
+    display: flex;
+    row-gap: 32px;
+    justify-content: space-between;
+}
+
+.sneaker_big_text{
+    width: calc(50% - 16px);
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.sneaker_big_parameters{
+    width: calc(50% - 16px);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.sneaker_big_parameters_header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #121723;
+}
+
+.sneaker_big_parameters_title{
+    font-size: 30px;
+}
+
+.sneaker_big_parameter{
+    padding-bottom: 24px;
+    border-bottom: 1px solid #121723;
+    display: flex;
+    justify-content: space-between;
 }

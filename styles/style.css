@@ -68,6 +68,7 @@ a{
     width: calc(33% - 18px);
     background: white;
     border-radius: 12px;
+    transition-duration: 0.5s;
 }
 
 .sneaker:hover{
