@@ -98,4 +98,61 @@ p{
     .sneaker_big_text_subtitle{
         font-size: 20px;
     }
+
+    .sneaker{
+        width: 100%;
+    }
+
+    .collection{
+        font-size: 32px;
+    }
+
+    .header{
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+
+    .footer_content{
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 24px;
+    }
 }
+
+
+@font-face {
+    font-family: "IBM Plex Mono";
+    src: url(./fonts/IBMPlexMono-Regular.ttf) format('truetype');
+    /*font-weight: 900;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Bold.woff) format('woff'),
+    url(./fonts/AnonymousPro-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(./fonts/AnonymousPro-Regular.woff) format('woff'),
+    url(./fonts/AnonymousPro-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+html{
+    font-family: "Anonymous Pro", serif;
+    font-weight: 400;
+}
+
+
+
