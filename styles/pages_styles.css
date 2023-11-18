@@ -150,7 +150,7 @@ footer {
     margin: 24px 0px 0px 0px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
     .sneaker{
         width: 100%;
     }
